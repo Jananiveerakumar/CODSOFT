@@ -1,0 +1,224 @@
+:root{
+    --brown:#32012F;
+    --white:rgba(245, 245, 245, 0.929);
+    --orange:hsl(38, 62%, 60%);
+    --beige:rgb(143, 145, 110);
+    --skin:hsl(29, 41%, 80%);
+}
+
+
+
+body{
+    margin:0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.landing{
+    background-image: url("../media/brooke-lark-fANEvguCIXE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height:120vh;
+
+    color:var(--brown);
+
+}
+header a{
+    text-decoration:none;
+    color:var(--brown);
+    padding-top:15px;
+}
+header{
+    display:flex;
+    padding:2em;
+    font-size: 1.3em;
+  
+
+
+}
+#logo{
+    flex:2.5;
+    font-size:2.6em;
+        font-family: "Ga Maamli", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+nav{
+    flex:2;
+    display:flex;
+   
+}
+nav a{
+    flex:1;
+}
+.sign{
+    display:flex;
+    flex:2;
+    padding: 100px;
+}
+nav a:hover{
+    color:var(--beige);
+}
+.maintext{
+    display:flex;
+    flex-direction:column;
+    height:50vh;
+    justify-content: center;
+    padding:2em;
+    position:static;
+}
+.tagline1{
+    color:var(--brown);
+    font-size:2.8em;
+    font-weight: bolder;
+    padding-top: 1.6em;
+ 
+        font-family: "Margarine", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+
+
+      
+
+.tagline2{
+    color:var(--brown);
+    font-family:Arial, Helvetica, sans-serif;
+    border:1px solid none ;
+    font-size:1.1em;
+    padding-bottom: 7em;
+}
+.maintext div{
+    margin-top:.75em;
+}
+.maintext button{
+    width:14vw;
+    margin-top:2em;
+    border-radius: 10px;
+    padding:.7em;
+
+    background-color: var(--beige);
+    color:var(--brown);
+        border:1px solid var(--brown);
+text-align:center;
+position:relative;
+bottom:9em;
+}
+.maintext button:hover{
+   background-color:var(--skin);
+
+}
+.menubar h2{
+    color:var(--brown);
+    
+        font-family: "Margarine", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+#menubar{
+    display: flex;
+    justify-content: center;    
+    font-family: "Margarine", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 100px;
+    font-size:1.5em;
+}
+.tablemenu{
+  
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width:100%;
+ 
+
+   
+    
+   
+}
+.coffee,.latte,.drinks{
+    margin:30px 0px 30px 90px ;
+    border:2px solid var(--brown);
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    background:linear-gradient(to right,rgb(224, 224, 221),rgb(220, 220, 198));
+    color:var(--brown);
+    
+   }
+   th{
+    color:var(--beige);
+    font-size: 1.3em;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+.tablemenu tr{
+    display:flex;
+    justify-content: center;
+    line-height: 30px;
+    font-size: 1.2em;
+   
+}
+footer{
+    display:flex;
+    justify-content: center;
+}
+footer{
+    
+    background:linear-gradient(to right,rgb(224, 224, 221),rgb(220, 220, 198));
+    color:var(--brown);
+    
+}
+.about h4{
+    padding-left: 100px;
+   
+}
+.about{
+    line-height: .1em;
+}
+  .contact{
+
+    padding-left: 50px;
+  }
+  .container{
+    width:200px;
+    height:200px;
+    display:flex;
+    padding-left:30px;
+  
+    
+    
+    
+  }
+  
+  .images{
+    background:linear-gradient(to right,rgb(224, 224, 221),rgb(220, 220, 198));
+    color:var(--brown);
+    padding-top: 30px;
+  }
+  #gallery{
+    text-align: center;
+    font-family: "Margarine", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+
+  }
+  .details{
+    padding-top: 200px;
+    padding-bottom: 50px;
+  }
+  .img1,.img2,.img3,.img4{
+   margin-left: 75px;
+   border:2px solid rgb(236, 236, 193);
+   border-bottom: 20px;
+ }
+ .container h4{
+    text-align: center;
+    font-family: "Margarine", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+ }
